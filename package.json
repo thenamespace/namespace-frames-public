@@ -1,0 +1,20 @@
+{
+  "name": "namespace-frames-v2",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@neynar/nodejs-sdk": "^1.23.0",
+    "@types/node": "^20.12.12",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "frog": "^0.9.4",
+    "hono": "^4.3.6",
+    "tsx": "^4.10.2",
+    "viem": "^2.10.5"
+  },
+  "scripts": {
+    "dev": "frog dev"
+  }
+}
